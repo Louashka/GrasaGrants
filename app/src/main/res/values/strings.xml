@@ -1,0 +1,230 @@
+<resources>
+    <string name="app_name">GRASA GRANT</string>
+    <string name="txt_tab1">Гранты</string>
+    <string name="txt_tab2">ФЦП</string>
+    <string name="txt_tab3">Госзакупки</string>
+
+    <string name="action_important">Избранное</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_news_default">NewsDefault</string>
+    <string name="title_activity_news_with_deadline">NewsWithDeadline</string>
+
+    <string name="title_activity_fz44">Fz44Activity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_fz44_navigation">Fz44NavigationActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="search_hint">Поиск</string>
+
+    <string-array name="array_filter_items">
+        <item>Сортировка</item>
+        <item>Регион</item>
+        <item>Размещение</item>
+        <item>Валюта</item>
+    </string-array>
+
+    <string-array name="array_sort">
+        <item>По дате добавления</item>
+        <item>По цене лота</item>
+        <item>По дате окончания подачи заявки</item>
+    </string-array>
+
+    <string-array name="array_placing">
+        <item>Открытый конкурс</item>
+        <item>Закрытый конкурс</item>
+        <item>Открытый аукцион</item>
+        <item>Закрытый аукцион</item>
+        <item>Электронный аукцион</item>
+    </string-array>
+
+    <string-array name="array_currency">
+        <item>RUB</item>
+        <item>USD</item>
+    </string-array>
+
+    <string-array name="array_regions">
+        <item>Республика Адыгея</item>
+        <item>Республика Алтай</item>
+        <item>Алтайский край</item>
+        <item>Амурская область</item>
+        <item>Архангельская область</item>
+        <item>Астраханская область</item>
+        <item>Байконур</item>
+        <item>Республика Башкортостан</item>
+        <item>Белгородская область</item>
+        <item>Брянская область</item>
+        <item>Республика Бурятия</item>
+        <item>Чеченская Республика</item>
+        <item>Челябинская область</item>
+        <item>Чукотский автономный округ</item>
+        <item>Чувашская Республика - Чувашия</item>
+        <item>Республика Дагестан</item>
+        <item>Еврейская автономная область</item>
+        <item>Республика Ингушетия</item>
+        <item>Иркутская область</item>
+        <item>Ивановская область</item>
+        <item>Ямало-Ненецкий автономный округ</item>
+        <item>Ярославская область</item>
+        <item>Кабардино-Балкарская Республика</item>
+        <item>Калининградская область</item>
+        <item>Республика Калмыкия</item>
+        <item>Калужская область</item>
+        <item>Камчатский край</item>
+        <item>Карачаево-Черкесская Республика</item>
+        <item>Республика Карелия</item>
+        <item>Кемеровская область</item>
+        <item>Хабаровский край</item>
+        <item>Республика Хакасия</item>
+        <item>Ханты-Мансийский автономный округ - Югра</item>
+        <item>Кировская область</item>
+        <item>Республика Коми</item>
+        <item>Костромская область</item>
+        <item>Краснодарский край</item>
+        <item>Красноярский край</item>
+        <item>Республика Крым</item>
+        <item>Курганская область</item>
+        <item>Курская область</item>
+        <item>Ленинградская область</item>
+        <item>Липецкая область</item>
+        <item>Магаданская область</item>
+        <item>Республика Марий Эл</item>
+        <item>Республика Мордовия</item>
+        <item>Московская область</item>
+        <item>г. Москва</item>
+        <item>Мурманская область</item>
+        <item>Ненецкий автономный округ</item>
+        <item>Нижегородская область</item>
+        <item>Новгородская область</item>
+        <item>Новосибирская область</item>
+        <item>Омская область</item>
+        <item>Оренбургская область</item>
+        <item>Орловская область</item>
+        <item>Пензенская область</item>
+        <item>Пермский край</item>
+        <item>Приморский край</item>
+        <item>Псковская область</item>
+        <item>Рязанская область</item>
+        <item>Ростовская область</item>
+        <item>Республика Саха (Якутия)</item>
+        <item>Сахалинская область</item>
+        <item>Самарская область</item>
+        <item>Санкт-Петербург</item>
+        <item>Саратовская область</item>
+        <item>Севастополь</item>
+        <item>Республика Северная Осетия - Алания</item>
+        <item>Смоленская область</item>
+        <item>Ставропольский край</item>
+        <item>Свердловская область</item>
+        <item>Тамбовская область</item>
+        <item>Республика Татарстан (Татарстан)</item>
+        <item>Тюменская область</item>
+        <item>Томская область</item>
+        <item>Тульская область</item>
+        <item>Тверская область</item>
+        <item>Республика Тыва</item>
+        <item>Удмуртская Республика</item>
+        <item>Ульяновская область</item>
+        <item>Владимирская область</item>
+        <item>Волгоградская область</item>
+        <item>Вологодская область</item>
+        <item>Воронежская область</item>
+        <item>Забайкальский край</item>
+    </string-array>
+
+    <string-array name="array_regions_ftp">
+        <item>Adygeja_Resp</item>
+        <item>Altaj_Resp</item>
+        <item>Altajskij_kraj</item>
+        <item>Amurskaja_obl</item>
+        <item>Arkhangelskaja_obl</item>
+        <item>Astrakhanskaja_obl</item>
+        <item>Bajkonur_g</item>
+        <item>Bashkortostan_Resp</item>
+        <item>Belgorodskaja_obl</item>
+        <item>Brjanskaja_obl</item>
+        <item>Burjatija_Resp</item>
+        <item>Chechenskaja_Resp</item>
+        <item>Cheljabinskaja_obl</item>
+        <item>Chukotskij_AO</item>
+        <item>Chuvashskaja_Resp</item>
+        <item>Dagestan_Resp</item>
+        <item>Evrejskaja_Aobl</item>
+        <item>Ingushetija_Resp</item>
+        <item>Irkutskaja_obl</item>
+        <item>Ivanovskaja_obl</item>
+        <item>Jamalo-Neneckij_AO</item>
+        <item>Jaroslavskaja_obl</item>
+        <item>Kabardino-Balkarskaja_Resp</item>
+        <item>Kaliningradskaja_obl</item>
+        <item>Kalmykija_Resp</item>
+        <item>Kaluzhskaja_obl</item>
+        <item>Kamchatskij_kraj</item>
+        <item>Karachaevo-Cherkesskaja_Resp</item>
+        <item>Karelija_Resp</item>
+        <item>Kemerovskaja_obl</item>
+        <item>Khabarovskij_kraj</item>
+        <item>Khakasija_Resp</item>
+        <item>Khanty-Mansijskij_AO-Jugra_AO</item>
+        <item>Kirovskaja_obl</item>
+        <item>Komi_Resp</item>
+        <item>Kostromskaja_obl</item>
+        <item>Krasnodarskij_kraj</item>
+        <item>Krasnojarskij_kraj</item>
+        <item>Krim_Resp</item>
+        <item>Kurganskaja_obl</item>
+        <item>Kurskaja_obl</item>
+        <item>Leningradskaja_obl</item>
+        <item>Lipeckaja_obl</item>
+        <item>Magadanskaja_obl</item>
+        <item>Marij_El_Resp</item>
+        <item>Mordovija_Resp</item>
+        <item>Moskovskaja_obl</item>
+        <item>Moskva</item>
+        <item>Murmanskaja_obl</item>
+        <item>Neneckij_AO</item>
+        <item>Nizhegorodskaja_obl</item>
+        <item>Novgorodskaja_obl</item>
+        <item>Novosibirskaja_obl</item>
+        <item>Omskaja_obl</item>
+        <item>Orenburgskaja_obl</item>
+        <item>Orlovskaja_obl</item>
+        <item>Penzenskaja_obl</item>
+        <item>Permskij_kraj</item>
+        <item>Primorskij_kraj</item>
+        <item>Pskovskaja_obl</item>
+        <item>Rjazanskaja_obl</item>
+        <item>Rostovskaja_obl</item>
+        <item>Sakha_Jakutija_Resp</item>
+        <item>Sakhalinskaja_obl</item>
+        <item>Samarskaja_obl</item>
+        <item>Sankt-Peterburg</item>
+        <item>Saratovskaja_obl</item>
+        <item>Sevastopol_g</item>
+        <item>Severnaja_Osetija-Alanija_Resp</item>
+        <item>Smolenskaja_obl</item>
+        <item>Stavropolskij_kraj</item>
+        <item>Sverdlovskaja_obl</item>
+        <item>Tambovskaja_obl</item>
+        <item>Tatarstan_Resp</item>
+        <item>Tjumenskaja_obl</item>
+        <item>Tomskaja_obl</item>
+        <item>Tulskaja_obl</item>
+        <item>Tverskaja_obl</item>
+        <item>Tyva_Resp</item>
+        <item>Udmurtskaja_Resp</item>
+        <item>Uljanovskaja_obl</item>
+        <item>Vladimirskaja_obl</item>
+        <item>Volgogradskaja_obl</item>
+        <item>Vologodskaja_obl</item>
+        <item>Voronezhskaja_obl</item>
+        <item>Zabajkalskij_kraj</item>
+    </string-array>
+
+
+</resources>

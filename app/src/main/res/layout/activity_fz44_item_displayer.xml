@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.luisitura.dlymansura.rssgrants.controller.Fz44ItemDisplayer">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:padding="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/numberTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Номер закупки: "
+                    android:textColor="#FFF"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/setNumberTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFF"
+                    android:textSize="16sp"
+                    android:text="TextView" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:id="@+id/regionTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="Регион: "
+                    android:textColor="#2a2828"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:layout_margin="3dp"
+                    android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/setRegionTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="left"
+                    android:text="Регион"
+                    android:autoLink="web"
+                    android:fontFamily="casual"
+                    android:textColor="#2a2828" />
+
+                <TextView
+                    android:id="@+id/objectTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:gravity="left"
+                    android:text="Объект закупки: "
+                    android:textColor="#2a2828"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/setObjectTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="left"
+                    android:text="Объект"
+                    android:autoLink="web"
+                    android:fontFamily="casual"
+                    android:textColor="#2a2828" />
+
+                <TextView
+                    android:id="@+id/orgTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:gravity="left"
+                    android:text="Организация: "
+                    android:textColor="#2a2828"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/setOrgTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="left"
+                    android:text="Организация"
+                    android:autoLink="web"
+                    android:fontFamily="casual"
+                    android:textColor="#2a2828" />
+
+                <TextView
+                    android:id="@+id/placingTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:gravity="left"
+                    android:text="Размещение: "
+                    android:textColor="#2a2828"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/setPlacingTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="left"
+                    android:text="Размещение"
+                    android:autoLink="web"
+                    android:fontFamily="casual"
+                    android:textColor="#2a2828" />
+
+                <TextView
+                    android:id="@+id/startDateTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:gravity="left"
+                    android:text="Начало подачи зявок: "
+                    android:textColor="#2a2828"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/setStartDateTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="left"
+                    android:text="Дата"
+                    android:autoLink="web"
+                    android:fontFamily="casual"
+                    android:textColor="#2a2828" />
+
+                <TextView
+                    android:id="@+id/endDateTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:gravity="left"
+                    android:text="Окончание подачи зявок: "
+                    android:textColor="#2a2828"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/setEndDateTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="left"
+                    android:text="Дата"
+                    android:autoLink="web"
+                    android:fontFamily="casual"
+                    android:textColor="#2a2828" />
+
+                <TextView
+                    android:id="@+id/placeTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:gravity="left"
+                    android:text="Место подачи заявок"
+                    android:textColor="#2a2828"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/setPlaceTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:gravity="left"
+                    android:text="Дата"
+                    android:autoLink="web"
+                    android:fontFamily="casual"
+                    android:textColor="#2a2828" />
+
+                <TextView
+                    android:id="@+id/maxPriceTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:gravity="left"
+                    android:text="Максимальная цена контракта"
+                    android:textColor="#2a2828"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/setMaxPriceTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="left"
+                    android:text="Лот"
+                    android:autoLink="web"
+                    android:fontFamily="casual"
+                    android:textColor="#2a2828" />
+
+                <TextView
+                    android:id="@+id/currencyTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:gravity="left"
+                    android:text="Валюта: "
+                    android:textColor="#2a2828"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/setCurrencyTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="left"
+                    android:text="Валюта"
+                    android:autoLink="web"
+                    android:fontFamily="casual"
+                    android:textColor="#2a2828" />
+
+                <TextView
+                    android:id="@+id/financeSourceTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:gravity="left"
+                    android:text="Источник финансирования: "
+                    android:textColor="#2a2828"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/setFinanceSourceTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="left"
+                    android:text="Источник"
+                    android:autoLink="web"
+                    android:fontFamily="casual"
+                    android:textColor="#2a2828" />
+
+                <TextView
+                    android:id="@+id/appTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:gravity="left"
+                    android:text="Размер обеспечения заявки: "
+                    android:textColor="#2a2828"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/setAppTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="left"
+                    android:text="Размер"
+                    android:autoLink="web"
+                    android:fontFamily="casual"
+                    android:textColor="#2a2828" />
+
+                <TextView
+                    android:id="@+id/contractTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:gravity="left"
+                    android:text="Размер обеспечения контракта: "
+                    android:textColor="#2a2828"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/setContractTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="left"
+                    android:text="Размер"
+                    android:autoLink="web"
+                    android:fontFamily="casual"
+                    android:textColor="#2a2828" />
+
+                <TextView
+                    android:id="@+id/deliveryPlaceTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:gravity="left"
+                    android:text="Место доставки товара: "
+                    android:textColor="#2a2828"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/setDeliveryPlaceTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="left"
+                    android:text="Место"
+                    android:autoLink="web"
+                    android:fontFamily="casual"
+                    android:textColor="#2a2828" />
+
+                <TextView
+                    android:id="@+id/linkTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:gravity="left"
+                    android:text="Ссылка: "
+                    android:textColor="#2a2828"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/setLinkTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="left"
+                    android:text="Ссылка"
+                    android:autoLink="web"
+                    android:fontFamily="casual"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        android:layout_weight="11">
+
+        <ImageView
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/ic_action_favourite" />
+        <ImageView
+            android:id="@+id/imageShare"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/ic_action_share" />
+    </LinearLayout>
+
+</LinearLayout>
